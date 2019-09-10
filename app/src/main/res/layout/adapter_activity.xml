@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/text_shape"
+    android:orientation="vertical"
+    android:layout_marginLeft="50dp"
+    android:layout_marginRight="50dp"
+    android:layout_marginTop="@dimen/dp_10"
+    android:layout_marginBottom="@dimen/dp_10"
+    android:padding="@dimen/dp_10"
+    android:id="@+id/rela"
+    >
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="标题"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18sp"
+
+        />
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/line"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginRight="@dimen/dp_10"-->
+        <!--android:layout_marginLeft="@dimen/dp_10"-->
+        <!--android:layout_marginTop="@dimen/dp_5"-->
+        <!--&gt;-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="描述: "-->
+            <!--/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/describe"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="嫖娼用嫖娼用嫖娼用嫖娼用嫖娼用嫖娼用嫖娼用嫖娼用嫖娼用嫖娼用嫖娼用嫖娼用嫖娼用嫖娼用嫖娼用嫖娼用嫖娼用"-->
+            <!--android:maxLines="2"-->
+            <!--android:ellipsize="end"-->
+            <!--/>-->
+    <!--</LinearLayout>-->
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="`12331"
+        android:maxLines="1"
+        android:maxEms="8"
+        android:ellipsize="end"
+        android:layout_gravity="right"
+        android:layout_marginTop="@dimen/dp_5"
+        android:layout_marginRight="@dimen/dp_10"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/dp_10"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginTop="@dimen/dp_5"
+        android:layout_marginBottom="@dimen/dp_5"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="消费金额: "
+            />
+
+        <TextView
+            android:id="@+id/money"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1258"
+            android:maxLines="1"
+            android:maxEms="1"
+            android:ellipsize="end"
+            android:gravity="right"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

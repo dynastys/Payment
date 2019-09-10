@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="toolbar_background">#D81B60</color>
+
+    <color name="view_circleColor">#a1a3a6</color>
+    <color name="view_textColor">#a1a3a6</color>
+    
+    <color name="viwe_background">#a1a3a6</color>
+    <color name="view_back">#ffffff</color>
+
+    <color name="back">#bfbfbf</color>
+
+
+    <color name="login_name">#ffffff</color>
+    <color name="section_header_tv">#ff666666</color>
+    <color name="section_header_tv_bg">#ffE8EDEE</color>
+    <color name="image_section_name_tv">#ff444444</color>
+
+    <color name="divider">#E5E5E5</color>
+
+    <color name="team">#EAEAEA</color>
+
+    <color name="text">#000000</color>
+
+    <color name="gray">#888888</color>
+    <color name="lightgray">#F5F5F5</color><!--亮灰色 -->
+
+    <color name="content_background">#f2f2f2</color>
+
+</resources>

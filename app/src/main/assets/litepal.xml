@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><litepal>
+
+    <dbname value="demo" />
+
+    <version value="16" />
+
+    <list>
+        <mapping class = "com.xuanyin.Demo"/>
+        <mapping class= "com.xuanyin.People"/>
+        <mapping class="com.xuanyin.User"/>
+        <mapping class="com.xuanyin.Consumptions"/>
+        <mapping class="com.xuanyin.ConsumptionDetails"/>
+        <mapping class="com.xuanyin.Classificaty"/>
+    </list>
+
+</litepal>

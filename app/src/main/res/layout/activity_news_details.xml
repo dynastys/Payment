@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    >
+
+    <RelativeLayout
+        android:id="@+id/tool"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+        <include layout="@layout/toolbar"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="取消"
+            android:layout_centerVertical="true"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="确定"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tool"
+        >
+
+        <include layout="@layout/ss" />
+
+    </RelativeLayout>
+
+
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/line"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_below="@id/tool"-->
+        <!--android:layout_margin="@dimen/dp_10"-->
+        <!--&gt;-->
+
+        <!--<EditText-->
+            <!--android:id="@+id/input"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="@dimen/dp_50"-->
+            <!--android:background="@null"-->
+            <!--android:hint="sjakm"-->
+            <!--android:gravity="center_vertical|right"-->
+            <!--/>-->
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="@dimen/dp_50"-->
+
+            <!--&gt;-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="日期"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--/>-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/data"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="2019-08-01 11:04:12 星期四"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--/>-->
+
+        <!--</RelativeLayout>-->
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="@dimen/dp_50"-->
+            <!--&gt;-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="付款人"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--/>-->
+
+            <!--<LinearLayout-->
+                <!--android:id="@+id/change_of_payer"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--&gt;-->
+                <!--<TextView-->
+                    <!--android:id="@+id/drawee"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="2019-08-01 11:04:12 星期四"-->
+
+                    <!--/>-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:background="@mipmap/into"-->
+                    <!--/>-->
+
+            <!--</LinearLayout>-->
+
+
+
+        <!--</RelativeLayout>-->
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="@dimen/dp_50"-->
+            <!--&gt;-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="参与人"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--/>-->
+
+            <!--<LinearLayout-->
+                <!--android:id="@+id/change_of_participants"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--&gt;-->
+                <!--<TextView-->
+                    <!--android:id="@+id/participants"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="2019-08-01 11:04:12 星期四"-->
+
+                    <!--/>-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:background="@mipmap/into"-->
+                    <!--/>-->
+
+            <!--</LinearLayout>-->
+
+        <!--</RelativeLayout>-->
+
+    <!--</LinearLayout>-->
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/rela"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_below="@id/line"-->
+        <!--&gt;-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="消费明细"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--/>-->
+
+        <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="修改"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--/>-->
+
+    <!--</RelativeLayout>-->
+
+    <!--<android.support.v7.widget.RecyclerView-->
+        <!--android:id="@+id/news_details_recyc"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/rela"-->
+        <!--/>-->
+
+
+
+</RelativeLayout>

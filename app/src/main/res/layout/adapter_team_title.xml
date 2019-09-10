@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/team"
+    >
+
+    <TextView
+        android:id="@+id/team_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="时间"
+        android:gravity="center"
+        android:padding="@dimen/dp_5"
+        />
+
+</android.support.constraint.ConstraintLayout>

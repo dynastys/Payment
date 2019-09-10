@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/inform_rela"
+    >
+
+    <com.othershe.library.NiceImageView
+        android:id="@+id/nice_image"
+        android:layout_width="@dimen/dp_50"
+        android:layout_height="@dimen/dp_50"
+        android:layout_margin="10dp"
+        app:is_circle="true"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/nice_image"
+        android:layout_marginLeft="@dimen/dp_10"
+        >
+
+        <TextView
+            android:id="@+id/information_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="名字"
+            />
+
+        <TextView
+            android:id="@+id/information_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="名字"
+            android:layout_marginTop="5dp"
+            />
+
+    </LinearLayout>
+
+    <!--<TextView-->
+        <!--android:id="@+id/information_text"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:gravity="center"-->
+        <!--/>-->
+
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/dp_0.5"-->
+        <!--android:background="@color/colorAccent"-->
+        <!--/>-->
+
+</RelativeLayout>

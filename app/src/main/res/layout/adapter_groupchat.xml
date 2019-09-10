@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/groupchat_line"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/dp_10"
+        >
+
+
+
+        <com.othershe.library.NiceImageView
+            android:id="@+id/nice_img"
+            android:layout_width="@dimen/dp_50"
+            android:layout_height="@dimen/dp_50"
+            app:is_circle="true"
+            android:layout_gravity="center_vertical"
+            />
+
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_toRightOf="@id/nice_img"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:singleLine="true"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/dp_10"
+            />
+
+        <TextView
+            android:id="@+id/text_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0.5"
+        android:background="@color/viwe_background"
+        />
+
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--&gt;-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/text_title"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="姓名"-->
+            <!--/>-->
+
+        <!--<View-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="@dimen/dp_5"/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/text_name"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="电话号码"-->
+            <!--/>-->
+
+    <!--</LinearLayout>-->
+
+</LinearLayout>
